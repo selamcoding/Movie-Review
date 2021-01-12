@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://ashim123:ashim123@ams-theatre-muqcl.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "ams-theater-backend"
+}

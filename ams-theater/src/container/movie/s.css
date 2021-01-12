@@ -1,0 +1,77 @@
+.ge {
+  width: 250px;
+
+  padding: 10px;
+  text-align: right;
+  border: 1px solid rgba(248, 204, 8, 0.89);
+  box-shadow: 0 2px 3px rgba(238, 196, 9, 0.952);
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.con {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.pic {
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  /* margin: auto; */
+}
+
+.te {
+  text-align: left;
+  color: rgba(238, 196, 9, 0.952);
+  padding: 20px;
+}
+
+.left {
+  background-color: #dbdbdb1f;
+  margin: 20px;
+}
+
+.NewMovie {
+  width: 100%;
+  margin: 20px;
+  color: rgb(255, 255, 240);
+
+  background-color: #dbdbdb1f;
+}
+
+.NewMovie label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.NewMovie input,
+.NewMovie textarea,
+.NewMovie select {
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  outline: none;
+  font: inherit;
+  margin: auto;
+}
+
+.NewMovie button {
+  margin: 5px 0;
+  padding: 10px;
+  font: inherit;
+  background-color: transparent;
+  color: rgba(248, 204, 8, 0.89);
+  cursor: pointer;
+}
+
+.NewMovie button:hover,
+.NewMovie button:active {
+  color: white;
+  background-color: rgba(248, 204, 8, 0.89);
+}

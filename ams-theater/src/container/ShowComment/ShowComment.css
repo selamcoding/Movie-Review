@@ -1,0 +1,55 @@
+.show {
+  width: 40%;
+  margin: 20px auto;
+  color: rgb(255, 255, 240);
+  /* border: 1px solid #eee;
+      box-shadow: 0 2px 3px #ccc; */
+  /* border: 1px solid rgba(248, 204, 8, 0.89); */
+  /* box-shadow: 0 2px 3px rgba(238, 196, 9, 0.952); */
+  text-align: left;
+  background-color: #dbdbdb1f;
+  padding: unset;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+.NewMovie label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.NewMovie input,
+.NewMovie textarea,
+.NewMovie select {
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  outline: none;
+  font: inherit;
+  margin: auto;
+}
+
+.NewMovie button {
+  margin: 5px 0;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  background-color: transparent;
+  color: rgba(248, 204, 8, 0.89);
+  cursor: pointer;
+}
+
+.NewMovie button:hover,
+.NewMovie button:active {
+  color: white;
+  background-color: rgba(248, 204, 8, 0.89);
+}
+.te {
+    text-align: left;
+    color: rgba(238, 196, 9, 0.952);
+    padding: 20px;
+  }

@@ -1,0 +1,24 @@
+.ge {
+  background-color: rgba(0, 0, 0, 0.171);
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(248, 204, 8, 0.89);
+  box-shadow: 0 2px 3px rgba(238, 196, 9, 0.952);
+  margin: auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.con {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.pic {
+  background-color: rgba(17, 17, 17, 0.719);
+  /* padding: 1px; */
+  width: 100%;
+  margin: auto;
+}
